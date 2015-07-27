@@ -1,0 +1,11 @@
+{
+  "name": "svg-stubs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "alekzonder <alekzonder@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+      "express": "*"
+  }
+}
