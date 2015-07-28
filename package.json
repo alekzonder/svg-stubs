@@ -1,11 +1,30 @@
 {
-  "name": "svg-stubs",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "author": "alekzonder <alekzonder@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-      "express": "*"
-  }
+    "name": "svg-stubs",
+    "version": "0.1.0",
+    "description": "Colored svg stubs for banner tests and etc",
+    "main": "index.js",
+    "bin": {
+        "svg-stubs": "./index.js"
+    },
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alekzonder/svg-stubs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alekzonder/svg-stubs/issues"
+    },
+    "homepage": "https://github.com/alekzonder/svg-stubs",
+    "keywords": [
+        "svg",
+        "stub",
+        "image"
+    ],
+    "author": "alekzonder <alekzonder@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "express": "4.13.1"
+    }
 }
