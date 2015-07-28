@@ -58,6 +58,7 @@ var svg = function(req, res) {
         .end();
 };
 
+app.get('/*.svg', svg);
 app.get('/svg', svg);
 app.get('/', svg);
 

@@ -21,6 +21,20 @@ in browser
 
 ```
 http://localhost:8080?text=hello
+
+OR
+
+http://localhost:8080/banner.svg?text=hello_world
+
+http://localhost:8080/[any symbols].svg
+```
+
+insert on your page
+
+```html
+<body>
+    <img src="http://localhost:8080/banner.svg?text=hello_world" />
+</body>
 ```
 
 ## GET params
