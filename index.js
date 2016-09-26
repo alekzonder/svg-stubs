@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+var logger = require('log4js').getLogger('svg-stubs');
 var app = require('express')();
 
 var port = 8080;
@@ -63,5 +64,5 @@ app.get('/svg', svg);
 app.get('/', svg);
 
 app.listen(port, function() {
-    console.log("listen on %s", port);
+    logger.info("listen on %s", port);
 });
