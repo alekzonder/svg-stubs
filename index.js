@@ -2,6 +2,8 @@
 var logger = require('log4js').getLogger('svg-stubs');
 var app = require('express')();
 
+logger.level = "info";
+
 var port = 8080;
 
 if (process.argv[2]) {
